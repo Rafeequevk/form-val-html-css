@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIgnup Form validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <h1>Signup Form</h1>
+    <form action="success.html">
+   <p>
+    <label for="UserName"> User Name </label>
+    <input type="text" id="username" onkeyup="validateName()">
+    <span class="error" id="usr-error"></span>
+   </p>
+   <p>
+    <label for="Email"> Email </label>
+    <input type="text" id="email" onkeyup="validateEmail()">
+    <span class="error" id="email-error"></span>
+   </p>
+   <p>
+    <label for="Password"> Password </label>
+    <input type="password" id="password" onkeyup="validatePassword()">
+    <span class="error" id="pass-error"></span>
+   </p>
+   <p>
+    <label for="repeat"> Re-type passowrd </label>
+    <input type="text" id="repeat" onkeyup="validateRepeat()">
+    <span class="error" id="rep-error"></span>
+   </p>
+   <button id="submit" type="submit" onclick=" return validateForm()">Submit</button>
+   <span class="error" id="sub-error"></span>
+</form>
+</div>
+   <script src="/scrip.js"></script>
+</body>
+</html>
