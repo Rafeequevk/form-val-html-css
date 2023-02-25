@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: wheat;
-    background: url(https://images.unsplash.com/photo-1625225233840-695456021cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background: url(https://images.unsplash.com/photo-1625225233840-695456021cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) center/cover
 }
 
 .error{
@@ -15,6 +15,6 @@ font-size: small;
     background-color: rgb(9, 9, 9,0.7);
     padding: 2rem;
     border-radius: 2rem;
+    max-width: 315px;
 
 }
-.form{}
